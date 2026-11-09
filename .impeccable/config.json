@@ -1,0 +1,62 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-05T18:18:51.122Z",
+        "reason": "Claude: #front-img src is set by script.js openCard() before the dialog is shown"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-09T00:12:46.792Z",
+        "reason": "Claude: halo is on fairy-light bulbs (.bulb), a literal light source the user asked for as a visible effect"
+      },
+      {
+        "rule": "pulsing-dot",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-09T00:17:57.956Z",
+        "reason": "Claude: flagged element is the twinkling fairy-light .bulb, a decorative light effect the user explicitly asked for (clear, attractive effects)"
+      },
+      {
+        "rule": "codex-grid-background",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-09T00:32:15.375Z",
+        "reason": "Claude: graph-paper grid is the statistics worksheet surface (kertas milimeter), an actual measurement surface for the quiz charts"
+      },
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-09T00:32:15.732Z",
+        "reason": "Claude: ruled lines on the letter paper peeking out of the envelope (.env-paper), a literal ruled-paper texture"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-09T00:32:16.115Z",
+        "reason": "Claude: .sheet has padding clamp(1.25rem..3rem); verified in rendered screenshots at 320/390/900px that text is inset"
+      }
+    ]
+  }
+}
